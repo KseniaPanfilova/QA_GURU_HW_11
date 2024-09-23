@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "hw-11"
+version = "0.1.0"
+description = "This is my first project created by poetry"
+authors = ["Ksenia Panfilova <kseniapanfilova@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pytest = "^8.3.3"
+selene = "^1.0.2"
+
+
+[tool.poetry.group.dev.dependencies]
+pylint = "^3.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
